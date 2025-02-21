@@ -1,24 +1,24 @@
-# Klasifikasi Penyakit Diabetes Menggunakan Metode Support Vector Machine (SVM) dan Extreme Gradient Boosting (XGBoost)
+# Diabetes Disease Classification Using Support Vector Machine (SVM) and Extreme Gradient Boosting (XGBoost)
 
-# Pendahuluan
-Diabetes mellitus adalah penyakit kronis yang terus meningkat secara global dan dapat menyebabkan komplikasi serius seperti penyakit jantung dan stroke. Diagnosis dini sangat penting, tetapi metode konvensional seperti tes gula darah sering kurang sensitif pada tahap awal.
+# Introduction
+Diabetes mellitus is a chronic disease with a rising global prevalence, potentially leading to serious complications such as heart disease and stroke. Early diagnosis is crucial, but conventional methods like blood sugar tests are often insufficiently sensitive in the early stages.
 
-# Metode yang Digunakan
-1. Support Vector Machine (SVM): Mencari hyperplane optimal untuk memisahkan kelas data.
-2. XGBoost: Algoritma berbasis pohon keputusan yang meningkatkan akurasi prediksi.
+# Methods Used
+1. Support Vector Machine (SVM): Identifies the optimal hyperplane to separate data classes.
+2. XGBoost: A decision tree-based algorithm that enhances prediction accuracy.
 
 # Dataset
-Dataset "Diabetes Prediction Dataset" dari Kaggle berisi informasi kesehatan pasien untuk memprediksi kemungkinan diabetes. Dataset ini terdiri dari 100.000 baris dan 9 fitur utama, seperti usia, jenis kelamin, BMI, hipertensi, penyakit jantung, dan kadar glukosa darah.
+The "Diabetes Prediction Dataset" from Kaggle contains patient health information used to predict diabetes likelihood. The dataset consists of 100,000 rows and 9 key features, including age, gender, BMI, hypertension, heart disease, and blood glucose levels.
 
-# Pengolahan Data
-Data diproses menggunakan Google Colab dengan library seperti pandas, numpy, matplotlib, dan seaborn. Langkah utama:
-1. Pemeriksaan Statistik: Analisis deskriptif untuk memahami data.
-2. Pembersihan Data: Menghapus duplikat untuk menjaga integritas dataset.
-3. Eksplorasi Data: Visualisasi distribusi dan hubungan antar variabel.
-4. Penyeimbangan Data: Metode sampling untuk distribusi kelas yang lebih merata.
-5. Transformasi Fitur: Konversi fitur kategori ke format numerik dengan LabelEncoder.
+# Data Processing
+The data is processed using Google Colab with libraries such as pandas, numpy, matplotlib, and seaborn. The main steps include:
+1. Statistical Analysis: Descriptive analysis to understand data characteristics.
+2. Data Cleaning: Removing duplicates to maintain dataset integrity.
+3. Data Exploration: Visualizing distributions and relationships between variables.
+4. Data Balancing: Applying sampling methods to ensure balanced class distribution.
+5. Feature Transformation: Converting categorical features into numerical format using LabelEncoder.
 
-# Model Machine Learning
-Model SVM dan XGBoost digunakan untuk membangun sistem prediksi diabetes, dengan evaluasi model untuk mengukur kinerja klasifikasinya.
+# Machine Learning Model
+The SVM and XGBoost models are utilized to build a diabetes prediction system, with model evaluation conducted to assess classification performance.
 
-Penelitian ini bertujuan untuk meningkatkan akurasi deteksi dini diabetes dan memberikan alat diagnostik yang lebih andal bagi profesional kesehatan.
+This research aims to enhance the accuracy of early diabetes detection and provide a more reliable diagnostic tool for healthcare professionals.
