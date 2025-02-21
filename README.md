@@ -19,6 +19,6 @@ The data is processed using Google Colab with libraries such as pandas, numpy, m
 5. Feature Transformation: Converting categorical features into numerical format using LabelEncoder.
 
 # Machine Learning Model
-The SVM and XGBoost models are utilized to build a diabetes prediction system, with model evaluation conducted to assess classification performance.
+SVM and XGBoost models are utilized to build a diabetes prediction system, with model evaluation conducted to assess classification performance.
 
 This research aims to enhance the accuracy of early diabetes detection and provide a more reliable diagnostic tool for healthcare professionals.
