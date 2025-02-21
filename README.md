@@ -1,4 +1,4 @@
-# Diabetes-Classification-SVM-XGBoost
+# Klasifikasi Penyakit Diabetes Menggunakan Metode Support Vector Machine (SVM) dan Extreme Gradient Boosting (XGBoost)
 
 # Pendahuluan
 Diabetes mellitus adalah penyakit kronis yang terus meningkat secara global dan dapat menyebabkan komplikasi serius seperti penyakit jantung dan stroke. Diagnosis dini sangat penting, tetapi metode konvensional seperti tes gula darah sering kurang sensitif pada tahap awal.
